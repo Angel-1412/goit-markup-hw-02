@@ -28,21 +28,32 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+}
+.text-button {
+  background-color: #2e2f42;
 }
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 .list {
   font-weight: 500;
@@ -51,13 +62,27 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.list-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.foto {
+  background-color: #ffffff;
 }
 .team-people {
   font-weight: 500;
@@ -78,10 +103,11 @@ h1 {
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-title {
   font-weight: 500;
@@ -96,6 +122,12 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
 }
 .text {
   font-weight: 400;
