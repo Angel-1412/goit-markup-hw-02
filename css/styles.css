@@ -39,24 +39,16 @@ body {
   color: #434455;
   font-style: normal;
 }
-.email {
+.contact-address {
   color: #434455;
 }
-.email:hover {
+.contact-address:hover {
   color: #404bbf;
 }
-.email:focus {
+.contact-address:focus {
   color: #404bbf;
 }
-.telephone {
-  color: #434455;
-}
-.telephone:hover {
-  color: #404bbf;
-}
-.telephone:focus {
-  color: #404bbf;
-}
+
 .text-button {
   background-color: #2e2f42;
 }
